@@ -65,10 +65,15 @@ trait AuthenticatesUsers
      */
     protected function validateLogin(Request $request)
     {
+        $messages = [
+            'username.required' => 'Email atau username tidak boleh kosong',
+            'password.required' => 'Password tidak boleh kosong',
+        ];
+
         $request->validate([
-            $this->username() => 'required|string',
+            'username' => 'required|string',
             'password' => 'required|string',
-        ]);
+        ], $messages);
     }
 
     /**
@@ -150,7 +155,12 @@ trait AuthenticatesUsers
      */
     public function username()
     {
-        return 'email';
+        $login = request()->input('username');
+
+        $field = filter_var($login, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
+        request()->merge([$field => $login]);
+
+        return $field;
     }
 
     /**

@@ -49,6 +49,29 @@
 
 <!-- jQuery -->
 @include('layouts.script')
+<script>
+    $('#logout-btn').on('click',function () {
+        Swal.fire({
+            title: 'Apa anda yakin?',
+            text: "Anda akan keluar dari aplikasi ini",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Ya, Logout'
+        }).then((result) => {
+            if (result.value===true) {
+            Swal.fire(
+                'Berhasil',
+                'Anda akan diarahkan ke halaman Login',
+                'success'
+
+            )
+            $('#logout-form').submit()
+        }
+    })
+    })
+</script>
 @yield('script')
 </body>
 </html>

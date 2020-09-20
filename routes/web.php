@@ -15,7 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/clearcache', function()
 {
-    \Illuminate\Support\Facades\Artisan::call('dump-autoload');
+    \Illuminate\Support\Facades\Artisan::call('config:clear');
+    \Illuminate\Support\Facades\Artisan::call('config:cache');
+    \Illuminate\Support\Facades\Artisan::call('cache:clear');
     echo 'clear cache complete';
 });
 

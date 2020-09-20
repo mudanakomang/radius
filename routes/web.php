@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/clearcache', function()
+{
+    \Illuminate\Support\Facades\Artisan::call('dump-autoload');
+    echo 'clear cache complete';
+});
 
 Auth::routes();
 

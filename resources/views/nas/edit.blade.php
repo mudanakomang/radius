@@ -35,9 +35,10 @@
                         </div>
                     @endif
 
-                    {!! Form::model($nas,['route'=>['nas.update','id'=>$nas->id],'method'=>'POST'],['class'=>'form-horizontal']) !!}
+{{--                    {!! Form::model($nas,['route'=>['nas.update','id'=>$nas->id],'method'=>'POST'],['class'=>'form-horizontal']) !!}--}}
+                    <form action="{{ route('nas.update',[$nas->id]) }}" method="POST">
                     <div class="form-group ">
-                        {!! Form::label('nasname') !!}
+                        <label for="nasname">Nas Name / IP Address</label>
                         <input type="text" id="nasname" name="nasname" class="form-control  @error('nasname') is-invalid @enderror" value="{{ $nas->nasname }}" placeholder="NAS Name" >
                         @error('nasname')
                         <span class="invalid-feedback" role="alert">
@@ -46,7 +47,7 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        {!! Form::label('shortname') !!}
+                        <label for="shortname">Short Name</label>
                         <input type="text" id="shortname" name="shortname" class="form-control  @error('shortname') is-invalid @enderror" value="{{ $nas->shortname }}" placeholder="NAS Shortname" >
                         @error('shortname')
                         <span class="invalid-feedback" role="alert">
@@ -55,7 +56,7 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        {!! Form::label('type') !!}
+                        <label for="type">Type</label>
                         <input type="text" id="type" name="type" class="form-control  @error('type') is-invalid @enderror" value="{{ $nas->type }}" placeholder="NAS Type" >
                         @error('type')
                         <span class="invalid-feedback" role="alert">
@@ -64,7 +65,7 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        {!! Form::label('secret') !!}
+                        <label for="secret">Secret</label>
                         <input type="text" id="secret" name="secret" class="form-control  @error('secret') is-invalid @enderror" value="{{ $nas->secret }}" placeholder="NAS Secret" >
                         @error('secret')
                         <span class="invalid-feedback" role="alert">
@@ -73,7 +74,7 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        {!! Form::label('description') !!}
+                        <label for="description">Description</label>
                         <input type="text" name="description" id="description" class="form-control  @error('description') is-invalid @enderror" value="{{ $nas->description }}" placeholder="Short description" >
                         @error('description')
                         <span class="invalid-feedback" role="alert">
@@ -81,8 +82,10 @@
                         </span>
                         @enderror
                     </div>
-                    {!! Form::submit('Simpan',['class'=>'btn btn-flat btn-success']) !!}
-                    {!! Form::close() !!}
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-flat btn-success">Simpan</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

@@ -36,11 +36,10 @@
                     @endif
 
                     <form action="{{ route('nas.store') }}" method="POST" >
-                    {{--{!! Form::open(['route'=>['nas.store'],'method'=>'POST'],['class'=>'form-horizontal']) !!}--}}
                         @csrf
                     <div class="form-group ">
                         <label for="nasname">NAS Name / IP Address</label>
-                        <input type="text" id="nasname" name="nasname" class="form-control  @error('nasname') is-invalid @enderror" value="{{ old('nasname') }}"  placeholder="NAS Name" >
+                        <input type="text" id="nasname" name="nasname" class="form-control  @error('nasname') is-invalid @enderror" value="{{ old('nasname') }}"  placeholder="NAS Name / IP Address" >
                         @error('nasname')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>

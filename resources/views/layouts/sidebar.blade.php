@@ -63,7 +63,7 @@
     </div>
     <!-- /.sidebar -->
 </aside>
-@push('script')
+@section('script')
     <script>
         $('#logout-btn').on('click',function () {
             Swal.fire({
@@ -115,4 +115,4 @@
             setSidebarState()
         })
     </script>
-    @endpush
+    @endsection

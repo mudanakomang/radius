@@ -21,7 +21,11 @@ Route::group(['middleware'=>'auth'],function(){
     Route::get('/', function () {
         return view('dashboard');
     })->name('dashboard');
-    Route::get('/nas',function(){
-        return view('layouts.master');
-    });
+    Route::get('/nas','NASController@index');
+    Route::get('/nas/create','NASController@create');
+    Route::post('/nas/delete','NASController@deleteNas')->name('nas.delete');
+    Route::post('/nas/store','NASController@store')->name('nas.store');
+    Route::get('/nas/edit/{id}','NASController@edit');
+    Route::post('/nas/{id}','NASController@update')->name('nas.update');
+
 });

@@ -49,6 +49,6 @@
 
 <!-- jQuery -->
 @include('layouts.script')
-@stack('script')
+@yield('script')
 </body>
 </html>

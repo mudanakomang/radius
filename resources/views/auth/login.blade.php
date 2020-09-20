@@ -26,7 +26,7 @@
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">Login</p>
+            <strong><p class="login-box-msg">Login</p></strong>
             <form action="{{ route('login') }}" method="post">
                 {{ csrf_field() }}
                 <div class="input-group mb-3">
@@ -43,7 +43,7 @@
                     @enderror
                 </div>
                 <div class="input-group mb-3">
-                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password"  autocomplete="current-password">
+                    <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" placeholder="Password"  autocomplete="current-password">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-lock"></span>

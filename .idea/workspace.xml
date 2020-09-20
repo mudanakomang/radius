@@ -2,129 +2,362 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b5c3284-64fa-47f3-9b8c-b519f1ad80e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/AdminLTELogo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/avatar04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/avatar2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/avatar3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/avatar5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/boxed-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/boxed-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/american-express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/cirrus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/mestro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/paypal2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/credit/visa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/default-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/photo1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/photo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/photo3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/photo4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/prod-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/prod-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/prod-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/prod-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/prod-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user1-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user2-160x160.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user3-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user4-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user5-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user6-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user7-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/user8-128x128.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-brands-400.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-brands-400.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-brands-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-brands-400.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-regular-400.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-regular-400.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-regular-400.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-regular-400.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-solid-900.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-solid-900.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-solid-900.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-solid-900.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/adminlte.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/adminlte.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/adminlte.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/adminlte.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.components.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.components.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.components.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.components.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.core.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.core.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.core.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.core.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.extra-components.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.extra-components.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.extra-components.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.extra-components.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.pages.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.pages.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.pages.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.pages.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.plugins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.plugins.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.plugins.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/css/alt/adminlte.plugins.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/adminlte.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/adminlte.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/adminlte.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/adminlte.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/pages/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/pages/dashboard2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/js/pages/dashboard3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/bootstrap/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/all.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/brands.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/brands.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/fontawesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/fontawesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/regular.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/regular.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/solid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/solid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/svg-with-js.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/svg-with-js.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/v4-shims.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/css/v4-shims.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-brands-400.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-regular-400.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/fontawesome-free/webfonts/fa-solid-900.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/icheck-bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/icheck-bootstrap/icheck-bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/icheck-bootstrap/icheck-bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery/jquery.slim.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade-old.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/drp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/font/summernote.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/font/summernote.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/font/summernote.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/font/summernote.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/dist/img/world.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/amd/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/amd/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/amd/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/browserify/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/browserify/bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/browserify/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/example/browserify/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/website.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/website.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/website/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/website/website.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/daterangepicker/website/website.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/jquery-ui/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar-dz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar-kw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar-ly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar-ma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar-sa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar-tn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/bm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/bo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/cv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/de-at.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/de-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/dv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-SG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-il.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/en-nz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/es-do.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/es-us.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fr-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/fy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ga.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/gd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/gom-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/hy-am.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/it-ch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/jv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/kn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/lb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/lo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/mi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/mr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ms-my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/mt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ne.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/nl-be.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/nn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/pa-in.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/se.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sr-cyrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/te.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tl-ph.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tlh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tzl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tzm-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/tzm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ug-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/ur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/uz-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/uz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/x-pseudo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/yo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/zh-hk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locale/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/moment-with-locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/moment-with-locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/moment/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/overlayScrollbars/css/OverlayScrollbars.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/overlayScrollbars/js/OverlayScrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/overlayScrollbars/js/OverlayScrollbars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ar-AR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ar-AR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ar-AR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-az-AZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-az-AZ.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-az-AZ.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-bg-BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-bg-BG.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-bg-BG.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ca-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ca-ES.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ca-ES.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-cs-CZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-cs-CZ.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-cs-CZ.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-da-DK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-da-DK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-da-DK.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-de-DE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-de-DE.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-el-GR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-el-GR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-el-GR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-es-ES.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-es-ES.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-es-EU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-es-EU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-es-EU.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fa-IR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fa-IR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fa-IR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fi-FI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fi-FI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fi-FI.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fr-FR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-fr-FR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-gl-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-gl-ES.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-gl-ES.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-he-IL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-he-IL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-he-IL.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-hr-HR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-hr-HR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-hr-HR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-hu-HU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-hu-HU.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-id-ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-id-ID.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-id-ID.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-it-IT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-it-IT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-it-IT.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ja-JP.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ja-JP.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ja-JP.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ko-KR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ko-KR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ko-KR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-lt-LT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-lt-LT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-lt-LT.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-lt-LV.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-lt-LV.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-lt-LV.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-mn-MN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-mn-MN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-mn-MN.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-nb-NO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-nb-NO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-nb-NO.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-nl-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-nl-NL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-nl-NL.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pl-PL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pl-PL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pl-PL.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pt-BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pt-BR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pt-PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pt-PT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-pt-PT.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ro-RO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ro-RO.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ro-RO.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ru-RU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ru-RU.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ru-RU.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sk-SK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sk-SK.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sk-SK.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sl-SI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sl-SI.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sl-SI.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sr-RS-Latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sr-RS-Latin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sr-RS-Latin.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sr-RS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sr-RS.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sr-RS.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sv-SE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-sv-SE.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ta-IN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ta-IN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-ta-IN.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-th-TH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-th-TH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-th-TH.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-tr-TR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-tr-TR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-tr-TR.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-uk-UA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-uk-UA.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-uk-UA.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-uz-UZ.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-uz-UZ.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-uz-UZ.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-vi-VN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-vi-VN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-vi-VN.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-zh-CN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-zh-CN.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-zh-TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/lang/summernote-zh-TW.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/plugin/databasic/summernote-ext-databasic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/plugin/databasic/summernote-ext-databasic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/plugin/hello/summernote-ext-hello.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-bs4.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote-lite.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.min.js.LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/summernote/summernote.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2/sweetalert2.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2/sweetalert2.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2/sweetalert2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2/sweetalert2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2/sweetalert2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/sweetalert2/sweetalert2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/script.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/style.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php" afterPath="$PROJECT_DIR$/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -145,37 +378,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticatesUsers.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AuthenticatesUsers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/laravel/ui/auth-backend/AuthenticatesUsers.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="163">
@@ -189,7 +392,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade-old.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="163">
-              <caret line="44" column="153" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="153" />
+              <caret line="44" column="153" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="153" />
               <folding />
             </state>
           </provider>
@@ -198,8 +401,72 @@
       <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="60" column="145" lean-forward="false" selection-start-line="60" selection-start-column="145" selection-end-line="60" selection-end-column="145" />
+            <state relative-caret-position="252">
+              <caret line="45" column="155" lean-forward="false" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="155" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="110" column="73" lean-forward="true" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+              <folding>
+                <element signature="e#244#263#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/script.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding>
+                <element signature="e#51#57#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/style.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="85" lean-forward="false" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -215,7 +482,10 @@
       <find>These credentials do not match our records</find>
       <find>require</find>
       <find>username(</find>
+      <find>remem</find>
       <find>adminlte</find>
+      <find>aside</find>
+      <find>menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -232,6 +502,12 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/script.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/style.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php" />
       </list>
     </option>
   </component>
@@ -283,7 +559,12 @@
             <path>
               <item name="radius" type="b2602c69:ProjectViewProjectNode" />
               <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="radius" type="b2602c69:ProjectViewProjectNode" />
+              <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -295,11 +576,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stormlife.stkipsuarbangli.ac.id" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\radius\public\plugins" />
+      <recent name="C:\xampp\htdocs\radius\public\dist\img" />
       <recent name="C:\xampp\htdocs\radius\public\dist" />
     </key>
   </component>
@@ -326,12 +608,12 @@
       <option name="presentableId" value="Default" />
       <updated>1600495796123</updated>
       <workItem from="1600495797315" duration="2461000" />
-      <workItem from="1600563328537" duration="4361000" />
+      <workItem from="1600563328537" duration="12868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6822000" />
+    <option name="totallyTimeSpent" value="15329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -440,18 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="60" column="145" lean-forward="false" selection-start-line="60" selection-start-column="145" selection-end-line="60" selection-end-column="145" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade-old.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="44" column="153" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="153" />
+          <caret line="44" column="153" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="153" />
           <folding />
         </state>
       </provider>
@@ -461,6 +735,66 @@
         <state relative-caret-position="163">
           <caret line="87" column="65" lean-forward="false" selection-start-line="87" selection-start-column="60" selection-end-line="87" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="45" column="155" lean-forward="false" selection-start-line="45" selection-start-column="155" selection-end-line="45" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding>
+            <element signature="e#51#57#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/style.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="85" lean-forward="false" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/script.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="110" column="73" lean-forward="true" selection-start-line="110" selection-start-column="73" selection-end-line="110" selection-end-column="73" />
+          <folding>
+            <element signature="e#244#263#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

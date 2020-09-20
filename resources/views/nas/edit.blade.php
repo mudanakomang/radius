@@ -34,9 +34,9 @@
                             <strong>{{ $message }}</strong>
                         </div>
                     @endif
-
 {{--                    {!! Form::model($nas,['route'=>['nas.update','id'=>$nas->id],'method'=>'POST'],['class'=>'form-horizontal']) !!}--}}
                     <form action="{{ route('nas.update',[$nas->id]) }}" method="POST">
+                        @csrf
                     <div class="form-group ">
                         <label for="nasname">Nas Name / IP Address</label>
                         <input type="text" id="nasname" name="nasname" class="form-control  @error('nasname') is-invalid @enderror" value="{{ $nas->nasname }}" placeholder="NAS Name" >

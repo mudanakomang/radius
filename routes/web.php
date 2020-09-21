@@ -35,4 +35,8 @@ Route::group(['middleware'=>'auth'],function(){
     Route::get('/nas/edit/{id}','NASController@edit');
     Route::post('/nas/{id}','NASController@update')->name('nas.update');
 
+    Route::resource('userprofile','UserProfileController');
+    Route::get('userprofile/attribute/add/{group}','UserProfileController@addAttribute');
+    Route::post('userprofile/attribute/store','UserProfileController@storeAttribute')->name('userprofile.attribute.store');
+
 });

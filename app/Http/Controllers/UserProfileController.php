@@ -18,7 +18,7 @@ class UserProfileController extends Controller
     public function index()
     {
         //
-        $userprofile=RadUserGroup::all();
+        $userprofile=RadUserGroup::all()->unique('groupname');
         return view('userprofile.index',['userprofile'=>$userprofile]);
     }
 
@@ -27,6 +27,30 @@ class UserProfileController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function attribute($group){
+        $attrs=[];
+        $attrs['check']=[];
+        $attrs['reply']=[];
+        $usergroup=RadUserGroup::where('groupname','=',$group)->first();
+        foreach($usergroup->radgroupcheck as $key=>$value){
+            array_push($attrs['check'],$value);
+        }
+        foreach($usergroup->radgroupreply as $key=>$value){
+            array_push($attrs['reply'],$value);
+        }
+        return view('userprofile.attribute.list',['attrs'=>$attrs,'groupname'=>$group]);
+    }
+
+    public function deleteAttribute(Request $request){
+        if ($request->type=='check'){
+            RadGroupCheck::find($request->id)->delete();
+        }
+        if ($request->type=='reply'){
+            RadGroupReply::find($request->id)->delete();
+        }
+        return response()->json(true);
+    }
+
     public function create()
     {
         //
@@ -50,9 +74,7 @@ class UserProfileController extends Controller
         ];
         $validator=Validator::make($request->all(),$rules,$message);
         if (!$validator->fails()){
-            $userprofile=new RadUserGroup();
-            $userprofile->groupname=$request->profilename;
-            $userprofile->save();
+            RadUserGroup::updateOrCreate(['groupname'=>$request->profilename]);
             return redirect()->back()->with('success','User Profile berhasil disimpan');
         }else{
             return redirect()->back()->withErrors($validator->errors());
@@ -146,16 +168,16 @@ class UserProfileController extends Controller
         $validator= Validator::make($request->all(),$rules,$message);
         if (!$validator->fails()){
             if ($request->has('quotacheck')){
+                RadGroupCheck::where('attribute','LIKE','%Bandwidth')->delete();
                 RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>$request->quota],['op'=>':=','value'=>$request->quotavalue*1024]);
             }
             if ($request->has('timecheck')){
+                RadGroupCheck::where('attribute','LIKE','%Session')->delete();
                 RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>$request->time],['op'=>':=','value'=>$request->timevalue*3600]);
-                RadGroupReply::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Session-Timeout'],['op'=>':=','value'=>$request->timevalue*3600]);
+               // RadGroupReply::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Session-Timeout'],['op'=>':=','value'=>$request->timevalue*3600]);
             }
             if ($request->has('sharedcheck')){
                 RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>$request->sharedvalue]);
-            }else{
-                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>1]);
             }
             return redirect()->back()->with('success','Attribute telah ditambahkan');
         }else{

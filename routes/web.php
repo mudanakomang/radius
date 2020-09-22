@@ -37,6 +37,10 @@ Route::group(['middleware'=>'auth'],function(){
 
     Route::resource('userprofile','UserProfileController');
     Route::get('userprofile/attribute/add/{group}','UserProfileController@addAttribute');
+    Route::get('userprofile/attribute/{group}','UserProfileController@attribute');
     Route::post('userprofile/attribute/store','UserProfileController@storeAttribute')->name('userprofile.attribute.store');
+    Route::post('userprofile/attribute/delete','UserProfileController@deleteAttribute')->name('userprofile.attribute.delete');
+
+    Route::resource('user','RadUserController');
 
 });

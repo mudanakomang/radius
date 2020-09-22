@@ -14,5 +14,8 @@ class RadCheck extends Model
     public function userGroup(){
         return $this->belongsTo(RadUserGroup::class,'username','username');
     }
+    public function acct(){
+        return $this->hasMany(RadAcct::class,'username','username');
+    }
 
 }

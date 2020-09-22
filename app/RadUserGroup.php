@@ -19,9 +19,10 @@ class RadUserGroup extends Model
     }
 
     public function radgroupcheck(){
-        return $this->belongsTo(RadGroupCheck::class,'groupname','groupname');
+        return $this->hasMany(RadGroupCheck::class,'groupname','groupname');
     }
     public function radgroupreply(){
-        return $this->belongsTo(RadGroupReply::class,'groupname','groupname');
+        return $this->hasMany(RadGroupReply::class,'groupname','groupname');
     }
+
 }

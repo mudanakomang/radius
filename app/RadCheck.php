@@ -11,6 +11,7 @@ class RadCheck extends Model
     protected $fillable=['username','attribute','op','value'];
     public $timestamps=false;
 
+
     public function userGroup(){
         return $this->belongsTo(RadUserGroup::class,'username','username');
     }

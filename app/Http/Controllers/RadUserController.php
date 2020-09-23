@@ -225,12 +225,13 @@ class RadUserController extends Controller
         $user->username=$request->username;
         $user->value=$request->password;
         $user->save();
-        $group = RadUserGroup::where('username','=',$user->username)->where('groupname','=',$request->profile)->first();
-        if (empty($group)){
-            RadUserGroup::create(['username'=>$user->username,'groupname'=>$request->profile]);
-        }else{
-            RadUserGroup::where('username','=',$user->username)->update(['groupname'=>$request->profile]);
+        $groupexists=RadUserGroup::where('username','=',$user->username)->get();
+        if (!empty($groupexists)){
+            RadUserGroup::where('username','=',$user->username)->delete();
         }
+        //RadUserGroup::where('username','=',$user->username)->where('groupname','=',$request->profile)->delete();
+        RadUserGroup::create(['username'=>$user->username,'groupname'=>$request->profile]);
+
         return redirect()->back()->with('success','Username berhasil diupdate');
     }
 

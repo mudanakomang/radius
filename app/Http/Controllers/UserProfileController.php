@@ -75,6 +75,7 @@ class UserProfileController extends Controller
         $validator=Validator::make($request->all(),$rules,$message);
         if (!$validator->fails()){
             RadUserGroup::updateOrCreate(['groupname'=>$request->profilename]);
+            RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Simultaneous-Use','op'=>':=','value'=>1]);
             return redirect()->back()->with('success','User Profile berhasil disimpan');
         }else{
             return redirect()->back()->withErrors($validator->errors());
@@ -178,6 +179,8 @@ class UserProfileController extends Controller
             }
             if ($request->has('sharedcheck')){
                 RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>$request->sharedvalue]);
+            }else{
+                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>1]);
             }
             return redirect()->back()->with('success','Attribute telah ditambahkan');
         }else{

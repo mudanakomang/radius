@@ -18,6 +18,7 @@ Route::get('/clearcache', function()
     \Illuminate\Support\Facades\Artisan::call('config:clear');
     \Illuminate\Support\Facades\Artisan::call('config:cache');
     \Illuminate\Support\Facades\Artisan::call('cache:clear');
+    \Illuminate\Support\Facades\Artisan::call('view:clear');
     echo 'clear cache complete';
 });
 
@@ -41,6 +42,9 @@ Route::group(['middleware'=>'auth'],function(){
     Route::post('userprofile/attribute/store','UserProfileController@storeAttribute')->name('userprofile.attribute.store');
     Route::post('userprofile/attribute/delete','UserProfileController@deleteAttribute')->name('userprofile.attribute.delete');
 
+    Route::post('user/delete','RadUserController@deleteUser')->name('user.delete');
     Route::resource('user','RadUserController');
+    Route::post('user/{id}','RadUserController@updateuser')->name('raduser.update');
+
 
 });

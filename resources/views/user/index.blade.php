@@ -21,7 +21,7 @@
 @endsection
 @section('content')
     <div class="row">
-        <div class="col-md-9 col-lg-9 col-sm-12">
+        <div class="col-md-12 col-lg-12 col-sm-12">
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title"></h3>
@@ -51,9 +51,9 @@
                                 <td>{{ $value->userGroup->groupname }}</td>
                                 <td>{{ $accts[$value->username]['status']=='off' ? 'Offline':'Online' }} </td>
                                 <td>{{ $accts[$value->username]['shared'] }} </td>
-                                <td>{{ $accts[$value->username]['bwusage']==null ? "-":round($accts[$value->username]['bwusage']/1024,2,2)." MB" }} / {{$accts[$value->username]['bwlimit']==null ? "-":round($accts[$value->username]['bwlimit']/1024,2,2)." MB"}} </td>
-                                <td>{{ $accts[$value->username]['sessionusage']==null ? "-":round($accts[$value->username]['sessionusage']/3600,2,2)." Jam" }} / {{$accts[$value->username]['sessionlimit']==null ? "-":round($accts[$value->username]['sessionlimit']/3600,2,2)." Jam"}} </td>
-                                <td></td>
+                                <td>{{ $accts[$value->username]['bwusage']==null ? "-":round($accts[$value->username]['bwusage']/1024,2,2)." MB" }} / {{$accts[$value->username]['bwlimit']==null ? "-":round($accts[$value->username]['bwlimit']/1024,2,2)." MB"}} {{$accts[$value->username]['bwtype']}}</td>
+                                <td>{{ $accts[$value->username]['sessionusage']==null ? "-":round($accts[$value->username]['sessionusage']/3600,2,2)." Jam" }} / {{$accts[$value->username]['sessionlimit']==null ? "-":round($accts[$value->username]['sessionlimit']/3600,2,2)." Jam"}} {{$accts[$value->username]['sestype']}}</td>
+                                <td><a href="{{ url('user').'/'.$value->id.'/edit' }}" title="Edit User"><i class="fa fa-edit"></i> Edit</a> | <a href="#" onclick="event.preventDefault();deleteUser(this.id)" id="{{ $value->id }}" title="Hapus User"><i class="fa fa-trash text-danger"></i> Hapus</a> </td>
                             </tr>
                         @endforeach
                         </tbody>
@@ -71,40 +71,39 @@
                 "autoWidth": false,
             });
         })
-        {{--function deleteNas(id) {--}}
-            {{--var dataid=id.split('-')[1]--}}
-            {{--Swal.fire({--}}
-                {{--title: 'Apa anda yakin?',--}}
-                {{--text: "Data NAS akan dihapus",--}}
-                {{--icon: 'warning',--}}
-                {{--showCancelButton: true,--}}
-                {{--confirmButtonColor: '#3085d6',--}}
-                {{--cancelButtonColor: '#d33',--}}
-                {{--confirmButtonText: 'Ya, Hapus'--}}
-            {{--}).then((result) => {--}}
-                {{--if (result.value===true) {--}}
-                {{--$.ajax({--}}
-                    {{--url:'{{ route('nas.delete') }}',--}}
-                    {{--method:'POST',--}}
-                    {{--dataType:'json',--}}
-                    {{--data:{--}}
-                        {{--_token:'{{ csrf_token() }}',--}}
-                        {{--id:dataid--}}
-                    {{--},success:function (s) {--}}
-                        {{--if(s){--}}
-                            {{--Swal.fire(--}}
-                                {{--'Berhasil',--}}
-                                {{--'NAS telah dihapus',--}}
-                                {{--'success'--}}
-                            {{--).then((result)=>{--}}
-                                {{--location.reload()--}}
-                        {{--})--}}
+        function deleteUser(id) {
+            Swal.fire({
+                title: 'Apa anda yakin?',
+                text: "Username akan dihapus",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Ya, Hapus'
+            }).then((result) => {
+                if (result.value===true) {
+                $.ajax({
+                    url:'{{ route('user.delete') }}',
+                    method:'POST',
+                    dataType:'json',
+                    data:{
+                        _token:'{{ csrf_token() }}',
+                        id:id
+                    },success:function (s) {
+                        if(s){
+                            Swal.fire(
+                                'Berhasil',
+                                'Username dihapus',
+                                'success'
+                            ).then((result)=>{
+                                location.reload()
+                        })
 
-                        {{--}--}}
-                    {{--}--}}
-                {{--})--}}
-            {{--}--}}
-        {{--})--}}
-        {{--}--}}
+                        }
+                    }
+                })
+            }
+        })
+        }
     </script>
 @endsection

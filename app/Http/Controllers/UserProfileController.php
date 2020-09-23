@@ -126,9 +126,10 @@ class UserProfileController extends Controller
     {
         //
         $radusergroup=RadUserGroup::where('groupname','=',$id)->first();
+
         $radusers=$radusergroup->user;
         foreach ($radusers as $user){
-            $user->delete();
+           $user->delete();
         }
         if(!empty($radusergroup->radgroupcheck)){
             $radusergroup->radgroupcheck()->delete();
@@ -137,6 +138,7 @@ class UserProfileController extends Controller
             $radusergroup->radgroupreply()->delete();
         }
         RadUserGroup::where('groupname','=',$id)->delete();
+
         return response()->json(true);
 
     }

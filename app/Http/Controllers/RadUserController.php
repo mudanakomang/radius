@@ -85,9 +85,15 @@ class RadUserController extends Controller
 
         $allusers=RadCheck::all();
         foreach ($allusers as $user){
+            if (!empty($user->userGroup)) {
+                $bwlimit = $user->userGroup->radgroupcheck()->where('attribute', 'LIKE', '%Bandwidth')->first();
+                $sessionlimit=$user->userGroup->radgroupcheck()->where('attribute','LIKE','%Session')->first();
+            }else{
+                $bwlimit=null;
+                $sessionlimit=null;
+            }
 
-           $bwlimit=$user->userGroup->radgroupcheck()->where('attribute','LIKE','%Bandwidth')->first();
-           $sessionlimit=$user->userGroup->radgroupcheck()->where('attribute','LIKE','%Session')->first();
+
            if (!empty($bwlimit)){
                $accts[$user->username]['bwlimit']=$bwlimit->value;
                $accts[$user->username]['bwusage']=$this->bwUsage($bwlimit->attribute,$user->username)[0];
@@ -114,16 +120,26 @@ class RadUserController extends Controller
                $accts[$user->username]['status']='on';
                $accts[$user->username]['shared']=$user->userGroup->radgroupcheck->where('attribute','=','Simultaneous-Use')->first()->value;
            }
-           $sim=$user->userGroup->radgroupcheck()->where('attribute','=','Simultaneous-Use')->first();
-           if ($sim){
+           if (!empty($user->userGroup)){
+               $sim=$user->userGroup->radgroupcheck()->where('attribute','=','Simultaneous-Use')->first();
+           }else{
+               $sim=null;
+           }
+
+           if (!empty($sim)){
                $accts[$user->username]['shared']=$user->userGroup->radgroupcheck->where('attribute','=','Simultaneous-Use')->first()->value;
            }else{
                $accts[$user->username]['shared']=null;
            }
 
         }
-//        dd($accts);
-        return view('user.index',['users'=>$allusers,'accts'=>$accts]);
+//
+        if (isset($accts)){
+            return view('user.index',['users'=>$allusers,'accts'=>$accts]);
+        }else{
+            return view('user.index',['users'=>$allusers,'accts'=>[]]);
+        }
+
     }
 
     /**

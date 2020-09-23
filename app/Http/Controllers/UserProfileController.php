@@ -181,9 +181,10 @@ class UserProfileController extends Controller
             }
             if ($request->has('sharedcheck')){
                 RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>$request->sharedvalue]);
-            }else{
-                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>1]);
             }
+//            else{
+//                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>1]);
+//            }
             return redirect()->back()->with('success','Attribute telah ditambahkan');
         }else{
             return redirect()->back()->withErrors($validator->errors());

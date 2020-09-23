@@ -51,7 +51,7 @@
                                 <td>{{ $value->userGroup->groupname }}</td>
                                 <td>{{ $accts[$value->username]['status']=='off' ? 'Offline':'Online' }} </td>
                                 <td>{{ $accts[$value->username]['shared'] }} </td>
-                                <td>{{ $accts[$value->username]['bwusage']==null ? "-":round($accts[$value->username]['bwusage']/1024,2,2)." MB" }} / {{$accts[$value->username]['bwlimit']==null ? "-":round($accts[$value->username]['bwlimit']/1024,2,2)." MB"}} {{$accts[$value->username]['bwtype']}}</td>
+                                <td>{{ $accts[$value->username]['bwusage']==null ? "-":round($accts[$value->username]['bwusage']/1024/1024,2,2)." MB" }} / {{$accts[$value->username]['bwlimit']==null ? "-":round($accts[$value->username]['bwlimit']/1024/1024,2,2)." MB"}} {{$accts[$value->username]['bwtype']}}</td>
                                 <td>{{ $accts[$value->username]['sessionusage']==null ? "-":round($accts[$value->username]['sessionusage']/3600,2,2)." Jam" }} / {{$accts[$value->username]['sessionlimit']==null ? "-":round($accts[$value->username]['sessionlimit']/3600,2,2)." Jam"}} {{$accts[$value->username]['sestype']}}</td>
                                 <td><a href="{{ url('user').'/'.$value->id.'/edit' }}" title="Edit User"><i class="fa fa-edit"></i> Edit</a> | <a href="#" onclick="event.preventDefault();deleteUser(this.id)" id="{{ $value->id }}" title="Hapus User"><i class="fa fa-trash text-danger"></i> Hapus</a> </td>
                             </tr>

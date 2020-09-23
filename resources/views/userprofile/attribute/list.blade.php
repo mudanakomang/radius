@@ -44,7 +44,7 @@
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $value->attribute }}</td>
                                 <td>@if(in_array($value->attribute,['Monthly-Bandwidth','Weekly-Bandwidth','Daily-Bandwidth','Total-Bandwidth']))
-                                        {{ round($value->value/1024,2,2) }} MB
+                                        {{ round($value->value/1024/1024,2,2) }} MB
                                     @elseif(in_array($value->attribute,['Max-Monthly-Session','Max-Weekly-Session','Max-Daily-Session','Max-All-Session','Session-Timeout']))
                                         {{ round($value->value/3600,2,2) }} Jam
                                         @else
@@ -59,7 +59,7 @@
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $value->attribute }}</td>
                                 <td>@if(in_array($value->attribute,['Monthly-Bandwidth','Weekly-Bandwidth','Daily-Bandwidth','Total-Bandwidth']))
-                                        {{ round($value->value/1024,2,2) }} MB
+                                        {{ round($value->value/1024/1024,2,2) }} MB
                                     @elseif(in_array($value->attribute,['Max-Monthly-Session','Max-Weekly-Session','Max-Daily-Session','Max-All-Session','Session-Timeout']))
                                         {{ round($value->value/3600,2,2) }} Jam
                                     @else

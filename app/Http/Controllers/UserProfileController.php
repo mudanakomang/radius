@@ -172,7 +172,7 @@ class UserProfileController extends Controller
         if (!$validator->fails()){
             if ($request->has('quotacheck')){
                 RadGroupCheck::where('attribute','LIKE','%Bandwidth')->delete();
-                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>$request->quota],['op'=>':=','value'=>$request->quotavalue*1024]);
+                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>$request->quota],['op'=>':=','value'=>$request->quotavalue*1024*1024]);
             }
             if ($request->has('timecheck')){
                 RadGroupCheck::where('attribute','LIKE','%Session')->delete();

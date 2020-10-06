@@ -177,6 +177,7 @@ class RadUserController extends Controller
         if (!$validator->fails()){
             RadCheck::updateOrCreate(['username'=>$request->username],['attribute'=>'Cleartext-Password','op'=>':=','value'=>$request->password]);
             RadUserGroup::updateOrCreate(['username'=>$request->username,'groupname'=>$request->profile]);
+            DB::statement('CALL delete_empty_usergroup()');
             return redirect()->back()->with('success','User berhasil disimpan');
         }else{
             return redirect()->back()->withErrors($validator->errors());

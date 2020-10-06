@@ -186,7 +186,6 @@ class UserProfileController extends Controller
 //            else{
 //                RadGroupCheck::updateOrCreate(['groupname'=>$request->groupname,'attribute'=>'Simultaneous-Use'],['op'=>':=','value'=>1]);
 //            }
-            DB::statement('CALL delete_empty_usergroup()');
             return redirect()->back()->with('success','Attribute telah ditambahkan');
         }else{
             return redirect()->back()->withErrors($validator->errors());

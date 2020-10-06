@@ -112,13 +112,12 @@ class RadUserController extends Controller
                 $accts[$user->username]['sessionlimit']=null;
                 $accts[$user->username]['sestype']=null;
             }
-           $on=RadAcct::where('username','=',$user->username)->whereNull('acctstoptime')->whereBetween('acctupdatetime',[Carbon::now()->format('Y-m-d H:i:s'),Carbon::now()->subMinutes(5)->format('Y-m-d H:i:s')])->get();
-           if (!empty($on)){
+           $on=RadAcct::where('username','=',$user->username)->whereNull('acctstoptime')->whereBetween('acctupdatetime',[Carbon::now()->subMinutes(10)->format('Y-m-d H:i:s'),Carbon::now()->format('Y-m-d H:i:s')])->get();
+           if ($on->isEmpty()){
                $accts[$user->username]['status']='off';
-
            }else{
                $accts[$user->username]['status']='on';
-               $accts[$user->username]['shared']=$user->userGroup->radgroupcheck->where('attribute','=','Simultaneous-Use')->first()->value;
+               //$accts[$user->username]['shared']=$user->userGroup->radgroupcheck->where('attribute','=','Simultaneous-Use')->first()->value;
            }
            if (!empty($user->userGroup)){
                $sim=$user->userGroup->radgroupcheck()->where('attribute','=','Simultaneous-Use')->first();
@@ -133,6 +132,7 @@ class RadUserController extends Controller
            }
 
         }
+//        dd($accts);
 //
         if (isset($accts)){
             return view('user.index',['users'=>$allusers,'accts'=>$accts]);

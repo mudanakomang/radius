@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b5c3284-64fa-47f3-9b8c-b519f1ad80e4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserProfileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserProfileController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/userprofile/attribute/list.blade.php" afterPath="$PROJECT_DIR$/resources/views/userprofile/attribute/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RadUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RadUserController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="UserProfileController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="181" column="46" lean-forward="true" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
+            <state relative-caret-position="3717">
+              <caret line="181" column="46" lean-forward="false" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
               <folding>
                 <element signature="e#40#62#0#PHP" expanded="true" />
               </folding>
@@ -31,7 +29,7 @@
       <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/userprofile/attribute/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="966">
               <caret line="46" column="72" lean-forward="false" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
               <folding />
             </state>
@@ -41,7 +39,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/user/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="1113">
               <caret line="53" column="133" lean-forward="false" selection-start-line="53" selection-start-column="133" selection-end-line="53" selection-end-column="133" />
               <folding />
             </state>
@@ -52,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/userprofile/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1680">
-              <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+              <caret line="80" column="40" lean-forward="false" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -62,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/app/RadUserGroup.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -88,31 +86,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RadUserController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RadUserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-              <folding>
-                <element signature="e#40#56#0#PHP" expanded="true" />
-                <marker date="1600843942134" expanded="true" signature="720:884" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1220:1384" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1696:1838" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1696:1846" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1696:1848" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1696:1859" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1696:1967" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="1889:1910" ph="select(DB::r... " />
-                <marker date="1600843942134" expanded="true" signature="2011:2115" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="2606:2748" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="3084:3226" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="3538:3679" ph="select sum(a... radacct" />
-                <marker date="1600843942134" expanded="true" signature="3831:3913" ph="select sum(a... radacct" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RadCheck.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/RadCheck.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,9 +99,34 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="420">
               <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadUserController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RadUserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="641">
+              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+                <marker date="1600860253395" expanded="true" signature="720:884" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1220:1384" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1696:1838" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1696:1846" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1696:1848" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1696:1859" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1696:1967" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="1889:1910" ph="select(DB::r... " />
+                <marker date="1600860253395" expanded="true" signature="2011:2115" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="2606:2748" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="3084:3226" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="3538:3679" ph="select sum(a... radacct" />
+                <marker date="1600860253395" expanded="true" signature="3831:3913" ph="select sum(a... radacct" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,9 +158,9 @@
       <find>store</find>
       <find>delete(</find>
       <find>update(</find>
-      <find>des</find>
       <find>/1024,</find>
       <find>1024</find>
+      <find>des</find>
     </findStrings>
     <replaceStrings>
       <replace>tr</replace>
@@ -229,7 +227,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1366" />
+    <option name="width" value="978" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -250,6 +248,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,32 +260,35 @@
             <path>
               <item name="radius" type="b2602c69:ProjectViewProjectNode" />
               <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="radius" type="b2602c69:ProjectViewProjectNode" />
+              <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="radius" type="b2602c69:ProjectViewProjectNode" />
+              <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="radius" type="b2602c69:ProjectViewProjectNode" />
               <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="radius" type="b2602c69:ProjectViewProjectNode" />
-              <item name="radius" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="storage" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ixitaskradius" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -324,34 +327,34 @@
       <workItem from="1600669101462" duration="21876000" />
       <workItem from="1600740016886" duration="1192000" />
       <workItem from="1600753233877" duration="27205000" />
-      <workItem from="1600822147963" duration="13968000" />
+      <workItem from="1600822147963" duration="17530000" />
+      <workItem from="1601989704420" duration="56000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107673000" />
+    <option name="totallyTimeSpent" value="111291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29680365" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27511415" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -592,7 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1491">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="52" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1659">
           <caret line="79" column="38" lean-forward="false" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
-          <folding>
-            <marker date="1600785655746" expanded="true" signature="2705:2894" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="39" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-294">
           <caret line="82" column="19" lean-forward="false" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62">
           <caret line="37" column="85" lean-forward="false" selection-start-line="37" selection-start-column="85" selection-end-line="37" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="420">
           <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
           <folding />
         </state>
@@ -680,7 +675,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/userprofile/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
-          <caret line="80" column="40" lean-forward="true" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+          <caret line="80" column="40" lean-forward="false" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -704,7 +699,7 @@
     <entry file="file://$PROJECT_DIR$/app/RadUserGroup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -719,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="181" column="46" lean-forward="true" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
+        <state relative-caret-position="3717">
+          <caret line="181" column="46" lean-forward="false" selection-start-line="181" selection-start-column="46" selection-end-line="181" selection-end-column="46" />
           <folding>
             <element signature="e#40#62#0#PHP" expanded="true" />
           </folding>
@@ -729,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/userprofile/attribute/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="966">
           <caret line="46" column="72" lean-forward="false" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
           <folding />
         </state>
@@ -737,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="1113">
           <caret line="53" column="133" lean-forward="false" selection-start-line="53" selection-start-column="133" selection-end-line="53" selection-end-column="133" />
           <folding />
         </state>
@@ -745,23 +740,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RadUserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="641">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
-            <marker date="1600843942134" expanded="true" signature="720:884" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1220:1384" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1696:1838" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1696:1846" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1696:1848" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1696:1859" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1696:1967" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="1889:1910" ph="select(DB::r... " />
-            <marker date="1600843942134" expanded="true" signature="2011:2115" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="2606:2748" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="3084:3226" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="3538:3679" ph="select sum(a... radacct" />
-            <marker date="1600843942134" expanded="true" signature="3831:3913" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="720:884" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1220:1384" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1696:1838" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1696:1846" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1696:1848" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1696:1859" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1696:1967" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="1889:1910" ph="select(DB::r... " />
+            <marker date="1600860253395" expanded="true" signature="2011:2115" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="2606:2748" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="3084:3226" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="3538:3679" ph="select sum(a... radacct" />
+            <marker date="1600860253395" expanded="true" signature="3831:3913" ph="select sum(a... radacct" />
           </folding>
         </state>
       </provider>

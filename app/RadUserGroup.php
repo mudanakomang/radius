@@ -8,7 +8,7 @@ class RadUserGroup extends Model
 {
     //
     protected $table='radusergroup';
-    protected $fillable=['username','groupname'];
+    protected $fillable=['username','groupname','harga'];
     public $timestamps=false;
     protected $primaryKey = null;
     public $incrementing = false;

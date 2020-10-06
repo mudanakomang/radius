@@ -6,6 +6,7 @@ use App\RadGroupCheck;
 use App\RadGroupReply;
 use App\RadUserGroup;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 class UserProfileController extends Controller
@@ -76,6 +77,7 @@ class UserProfileController extends Controller
         if (!$validator->fails()){
             RadUserGroup::updateOrCreate(['groupname'=>$request->profilename]);
             RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Simultaneous-Use','op'=>':=','value'=>1]);
+            DB::select('CALL delete_empty_usergroup()');
             return redirect()->back()->with('success','User Profile berhasil disimpan');
         }else{
             return redirect()->back()->withErrors($validator->errors());

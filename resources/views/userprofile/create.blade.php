@@ -95,8 +95,17 @@
                             </span>
                             @enderror
                         </div>
+                        <div class="form-group ">
+                            <label for="price">Price (Rp)</label>
+                            <input type="number" id="price" name="price" class="form-control  @error('price') is-invalid @enderror" value="{{ old('price') }}"  placeholder="Input Price" >
+                            @error('price')
+                            <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                            @enderror
+                        </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-flat btn-success">Simpan</button>
+                            <button type="submit" class="btn btn-flat btn-success">Save</button>
                         </div>
                     </form>
                 </div>

@@ -72,6 +72,16 @@
     })
     })
 </script>
+<script>
+    $(document).ready(function() {
+        $('#cbquota').change(function() {
+            $('#quotadiv').toggle();
+        });
+        $('#cbtimelimit').change(function() {
+            $('#timelimitdiv').toggle();
+        });
+    });
+</script>
 @yield('script')
 </body>
 </html>

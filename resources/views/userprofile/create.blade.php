@@ -46,7 +46,55 @@
                         </span>
                             @enderror
                         </div>
+{{--                        CHECKBOX QUOTA--}}
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="cbquota" name="cbquota" class=" @error('cbquota') is-invalid @enderror" value="">
+                                <label class="form-check-label" for="cbquota"><strong>Quota</strong></label>
+                            </div>
+                            @error('cbquota')
+                            <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
+                        <div id="quotadiv" style="display:none" class="form-group form-check form-check-inline">
+                            <input type="number" id="quota" name="quota" class="form-check-input form-control  @error('quota') is-invalid @enderror" value="{{ old('quota') }}"  placeholder="Only Number" >
+                            <select class="form-check-input form-control" name="sizetype" id="sizetype">
+                                <option value="mb">MB</option>
+                                <option value="gb">GB</option>
+                            </select>
+                            @error('quota')
+                            <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                            </span>
+                                @enderror
+                        </div>
+{{--                        CHECKBOX TIME LIMIT--}}
+                        <div class="form-group">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="cbtimelimit" name="cbtimelimit" class=" @error('cbtimelimit') is-invalid @enderror" value="">
+                                <label class="form-check-label" for="cbtimelimit"><strong>Time Limit</strong></label>
+                            </div>
+                            @error('cbtimelimit')
+                            <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                                </span>
+                            @enderror
+                        </div>
 
+                        <div id="timelimitdiv" style="display:none" class="form-group form-check form-check-inline">
+                            <input type="number" id="timelimit" name="timelimit" class="form-check-input form-control  @error('timelimit') is-invalid @enderror" value="{{ old('timelimit') }}"  placeholder="Only Number" >
+                            <select class="form-check-input form-control" name="timetype" id="timetype">
+                                <option value="jam">Jam</option>
+                                <option value="menit">Menit</option>
+                            </select>
+                            @error('timelimit')
+                            <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                        </div>
                         <div class="form-group">
                             <button type="submit" class="btn btn-flat btn-success">Simpan</button>
                         </div>
@@ -60,4 +108,5 @@
     <script>
 
     </script>
+
 @endpush

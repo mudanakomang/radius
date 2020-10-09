@@ -68,11 +68,13 @@ class UserProfileController extends Controller
     {
 
         $rules=[
-            'profilename'=>'required'
+            'profilename'=>'required',
+            'price'=>'required',
 
         ];
         $message=[
-            'profilename.required'=>'Profile Name Harus diisi'
+            'profilename.required'=>'Profile Name Not Be Empty',
+            'price.required'=>'Price Not Be Empty',
 
         ];
 
@@ -98,7 +100,8 @@ class UserProfileController extends Controller
 
         $validator=Validator::make($request->all(),$rules,$message);
         if (!$validator->fails()){
-            RadUserGroup::updateOrCreate(['groupname'=>$request->profilename]);
+
+            RadUserGroup::updateOrCreate(['groupname'=>$request->profilename,'harga'=>$request->price]);
 
             if ($request->quota == null && $request->timelimit == null)
             {
@@ -106,18 +109,21 @@ class UserProfileController extends Controller
             }
             elseif ($request->quota != null && $request->timelimit == null)
             {
+                RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Simultaneous-Use','op'=>':=','value'=>1]);
                 RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Total-Bandwidth','op'=>':=','value'=>$quota]);
             }
             elseif ($request->quota == null && $request->timelimit != null)
             {
+                RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Simultaneous-Use','op'=>':=','value'=>1]);
                 RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Max-All-Session','op'=>':=','value'=>$time]);
             }
             elseif ($request->quota != null && $request->timelimit != null)
             {
+                RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Simultaneous-Use','op'=>':=','value'=>1]);
                 RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Total-Bandwidth','op'=>':=','value'=>$quota]);
                 RadGroupCheck::create(['groupname'=>$request->profilename,'attribute'=>'Max-All-Session','op'=>':=','value'=>$time]);
             }
-            return redirect()->back()->with('success','User Profile berhasil disimpan');
+            return redirect()->action('UserProfileController@index')->with('success','User Profile berhasil disimpan');
         }else{
             return redirect()->back()->withErrors($validator->errors());
         }

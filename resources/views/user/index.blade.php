@@ -25,7 +25,7 @@
             <div class="card">
                 <div class="card-header">
                     <h3 class="card-title"></h3>
-                    <a href="{{ url('user/create') }}" title="Tambah RADIUS User" class="btn btn-flat btn-success"><i class="fa fa-plus"></i> Tambah RADIUS User</a>
+                    <a href="{{ url('user/create') }}" title="Generate User" class="btn btn-flat btn-success"><i class="fa fa-plus"></i> Generate User</a>
                 </div>
                 <div class="card-body">
                     <table id="usertable" class="table table-hover table-responsive">
@@ -48,8 +48,13 @@
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $value->username }}</td>
                                 <td>{{ $value->value }}</td>
-                                <td>{{ $value->userGroup->groupname }}</td>
+                                @if( $value->userGroup == null)
+                                    <td>-</td>
+                                @else
+                                    <td>{{ $value->userGroup->groupname }}</td>
+                                @endif
                                 <td>{{ $accts[$value->username]['status']=='off' ? 'Offline':'Online' }} </td>
+{{--                                <td>{{ $accts[$value->username]==$useracct[$value->username] ? 'Used':'Unused' }} </td>--}}
                                 <td>{{ $accts[$value->username]['shared'] }} </td>
                                 <td>{{ $accts[$value->username]['bwusage']==null ? "-":round($accts[$value->username]['bwusage']/1024/1024,2,2)." MB" }} / {{$accts[$value->username]['bwlimit']==null ? "-":round($accts[$value->username]['bwlimit']/1024/1024,2,2)." MB"}} {{$accts[$value->username]['bwtype']}}</td>
                                 <td>{{ $accts[$value->username]['sessionusage']==null ? "-":round($accts[$value->username]['sessionusage']/3600,2,2)." Jam" }} / {{$accts[$value->username]['sessionlimit']==null ? "-":round($accts[$value->username]['sessionlimit']/3600,2,2)." Jam"}} {{$accts[$value->username]['sestype']}}</td>

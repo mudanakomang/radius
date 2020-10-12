@@ -38,38 +38,27 @@
                     <form action="{{ route('user.store') }}" method="POST" >
                         @csrf
                         <div class="form-group ">
-                            <label for="username">Username</label>
-                            <input type="text" id="username" name="username" class="form-control  @error('username') is-invalid @enderror" value="{{ old('username') }}"  placeholder="Username" >
-                            @error('username')
+                            <label for="amount">Amount</label>
+                            <input type="number" id="amount" name="amount" class="form-control  @error('amount') is-invalid @enderror" value="{{ old('amount') }}"  placeholder="Only Number" >
+                            @error('amount')
                             <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
                         </span>
                             @enderror
                         </div>
                         <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="text" id="password" name="password" class="form-control  @error('password') is-invalid @enderror" value="{{ old('password') }}"  placeholder="Password" >
-                            @error('password')
-                            <span class="invalid-feedback" role="alert">
-                            <strong>{{ $message }}</strong>
-                        </span>
-                            @enderror
-                        </div>
-                        <div class="form-group">
-                            <label for="profile">Profile</label>
-                            <select name="profile" id="profile" class="form-control @error('profile') is-invalid @enderror">
-                                <option value="">Pilih Profile</option>
-                                @foreach(\App\RadUserGroup::get()->unique('groupname') as $group)
-                                    <option value="{{ $group->groupname }}">{{ $group->groupname }}</option>
-                                    @endforeach
+                            <label for="amount">Speed</label>
+                            <select class="form-control" name="speed" id="speed">
+                                <option value="A">5 Mbps</option>
+                                <option value="B">10 Mbps</option>
+                                <option value="B">20 Mbps</option>
                             </select>
-                            @error('profile')
+                            @error('speed')
                             <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
-                        </span>
+                            </span>
                             @enderror
                         </div>
-
                         <div class="form-group">
                             <button type="submit" class="btn btn-flat btn-success">Simpan</button>
                         </div>

@@ -84,6 +84,10 @@ class RadUserController extends Controller
         $users=[];
 
         $allusers=RadCheck::all();
+        $useracctall=DB::table('radacct')->select('username')->get();
+        $collection = collect($useracctall);
+        $useracct = $collection->unique()->values()->all();
+
         foreach ($allusers as $user){
             if (!empty($user->userGroup)) {
                 $bwlimit = $user->userGroup->radgroupcheck()->where('attribute', 'LIKE', '%Bandwidth')->first();
@@ -132,12 +136,12 @@ class RadUserController extends Controller
            }
 
         }
-//        dd($accts);
+ //       dd($allusers);
 //
         if (isset($accts)){
-            return view('user.index',['users'=>$allusers,'accts'=>$accts]);
+            return view('user.index',['users'=>$allusers,'accts'=>$accts,'useracct'=>$useracct]);
         }else{
-            return view('user.index',['users'=>$allusers,'accts'=>[]]);
+            return view('user.index',['users'=>$allusers,'useracct'=>$useracct,'accts'=>[]]);
         }
 
     }
@@ -164,20 +168,44 @@ class RadUserController extends Controller
         //
 
         $rules=[
-            'username'=>'required',
-            'password'=>'required',
-            'profile'=>'required'
+            'amount'=>'required',
+            'speed'=>'required',
+
         ];
         $messages=[
-            'username.required'=>'Usename wajib diisi',
-            'password.required'=>'Password wajib diisi',
-            'profile.required'=>'Silahkan memilih profile'
+            'amount.required'=>'Amount not be empty',
+            'speed.required'=>'Speed not be empty',
+
         ];
         $validator=Validator::make($request->all(),$rules,$messages);
         if (!$validator->fails()){
-            RadCheck::updateOrCreate(['username'=>$request->username],['attribute'=>'Cleartext-Password','op'=>':=','value'=>$request->password]);
-            RadUserGroup::updateOrCreate(['username'=>$request->username,'groupname'=>$request->profile]);
-            DB::statement('CALL delete_empty_usergroup()');
+            $amount = $request->amount;
+            function generateRandomString() {
+                $randomString = $_REQUEST['speed']; // A
+                $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+                $charactersLength = strlen($characters);
+
+                for ($i = 0; $i < 5; $i++) {
+                    $randomString .= $characters[rand(0, $charactersLength - 1)];
+                }
+                return strtoupper($randomString);
+            }
+
+            $result=[];
+            for($i=0;$i<=$amount-1;$i++){
+                array_push($result,generateRandomString());
+            }
+
+            foreach ($result as $hasilrandom)
+            {
+                RadCheck::updateOrCreate(['username'=>$hasilrandom],['attribute'=>'Cleartext-Password','op'=>':=','value'=>$hasilrandom]);
+            }
+
+
+
+//            RadCheck::updateOrCreate(['username'=>$result],['attribute'=>'Cleartext-Password','op'=>':=','value'=>$result]);
+//            RadUserGroup::updateOrCreate(['username'=>$request->username,'groupname'=>$request->profile]);
+//            DB::statement('CALL delete_empty_usergroup()');
             return redirect()->back()->with('success','User berhasil disimpan');
         }else{
             return redirect()->back()->withErrors($validator->errors());

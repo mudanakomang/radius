@@ -33,6 +33,7 @@
                         <tr>
 
                             <th>Profile Name</th>
+                            <th>Price</th>
                             <th>Action</th>
                         </tr>
                         </thead>
@@ -41,7 +42,8 @@
                                 <tr>
 
                                     <td><a href="{{ url('userprofile/attribute/').'/'.$value->groupname }}">{{ $value->groupname }}</a> </td>
-                                    <td><a href="{{ url('userprofile/attribute/add').'/'.$value->groupname }}" title="Tambah Attribute"><i class="fa fa-plus"></i> Tambah Attribute </a> | <a href="#" id="{{ $value->groupname }}" onclick="event.preventDefault(); deleteProfile(this.id);" title="Delete"><i class="fa fa-trash text-danger"></i> Hapus </a> </td>
+                                    <td>Rp. {{ $value->harga }}</td>
+                                    <td><a href="#" id="{{ $value->groupname }}" onclick="event.preventDefault(); deleteProfile(this.id);" title="Delete"><i class="fa fa-trash text-danger"></i> Hapus </a> </td>
                                 </tr>
                                 @endforeach
                         </tbody>

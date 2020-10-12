@@ -53,6 +53,7 @@
                     <a href="{{ url('/userlist') }}" class="nav-link   {{ (request()->segment(1)=='userlist') ? 'active':'' }}">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
+
                             Users
                         </p>
                     </a>

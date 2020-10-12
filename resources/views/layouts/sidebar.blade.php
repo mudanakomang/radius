@@ -49,8 +49,8 @@
                         </p>
                     </a>
                 </li>
-                <li class="nav-item  {{ (request()->segment(1)=='user') ? 'menu-open':'' }}">
-                    <a href="{{ url('/user') }}" class="nav-link   {{ (request()->segment(1)=='user') ? 'active':'' }}">
+                <li class="nav-item  {{ (request()->segment(1)=='userlist') ? 'menu-open':'' }}">
+                    <a href="{{ url('/userlist') }}" class="nav-link   {{ (request()->segment(1)=='userlist') ? 'active':'' }}">
                         <i class="nav-icon fas fa-user"></i>
                         <p>
                             Users

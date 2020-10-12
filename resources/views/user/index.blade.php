@@ -28,12 +28,17 @@
                     <a href="{{ url('user/create') }}" title="Generate User" class="btn btn-flat btn-success"><i class="fa fa-plus"></i> Generate User</a>
                 </div>
                 <div class="card-body">
+                    @if ($message = Session::get('success'))
+                        <div class="alert alert-success alert-block">
+                            <button type="button" class="close" data-dismiss="alert">×</button>
+                            <strong>{{ $message }}</strong>
+                        </div>
+                    @endif
                     <table id="usertable" class="table table-hover table-responsive">
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>User Name</th>
-                            <th>Password</th>
+                            <th>Kode Akses</th>
                             <th>User Group / Profile</th>
                             <th>Status</th>
                             <th>Shared User</th>
@@ -47,13 +52,17 @@
                             <tr>
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $value->username }}</td>
-                                <td>{{ $value->value }}</td>
                                 @if( $value->userGroup == null)
                                     <td>-</td>
                                 @else
                                     <td>{{ $value->userGroup->groupname }}</td>
                                 @endif
-                                <td>{{ $accts[$value->username]['status']=='off' ? 'Offline':'Online' }} </td>
+                                <td>@if(count($value->acct)==0)
+                                        <span class="badge badge-success">Belum Digunakan</span>
+                                        @else
+                                        <span class="badge badge-danger">Sudah Digunakan</span>
+                                    @endif
+                                </td>
 {{--                                <td>{{ $accts[$value->username]==$useracct[$value->username] ? 'Used':'Unused' }} </td>--}}
                                 <td>{{ $accts[$value->username]['shared'] }} </td>
                                 <td>{{ $accts[$value->username]['bwusage']==null ? "-":round($accts[$value->username]['bwusage']/1024/1024,2,2)." MB" }} / {{$accts[$value->username]['bwlimit']==null ? "-":round($accts[$value->username]['bwlimit']/1024/1024,2,2)." MB"}} {{$accts[$value->username]['bwtype']}}</td>

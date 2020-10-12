@@ -39,7 +39,7 @@
                         @csrf
                         <div class="form-group ">
                             <label for="amount">Amount</label>
-                            <input type="number" id="amount" name="amount" class="form-control  @error('amount') is-invalid @enderror" value="{{ old('amount') }}"  placeholder="Only Number" >
+                            <input type="number" id="amount" name="amount" class="form-control  @error('amount') is-invalid @enderror" value="{{ old('amount') }}"  placeholder="Jumlah User" >
                             @error('amount')
                             <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -47,13 +47,26 @@
                             @enderror
                         </div>
                         <div class="form-group">
-                            <label for="amount">Speed</label>
+                            <label for="speed">Speed</label>
                             <select class="form-control" name="speed" id="speed">
+                                <option value="">Pilih Speed</option>
                                 <option value="A">5 Mbps</option>
                                 <option value="B">10 Mbps</option>
-                                <option value="B">20 Mbps</option>
+                                <option value="C">20 Mbps</option>
                             </select>
                             @error('speed')
+                            <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                            </span>
+                            @enderror
+                            <label for="profile">Profil</label>
+                            <select class="form-control" name="profile" id="profile">
+                                <option value="">Pilih Profil</option>
+                                @foreach(\App\RadUserGroup::all()->unique('groupname') as $key=>$value)
+                                    <option value="{{ $value->groupname }}">{{ $value->groupname }}</option>
+                                @endforeach
+                            </select>
+                            @error('profile')
                             <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
                             </span>

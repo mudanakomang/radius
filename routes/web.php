@@ -44,6 +44,8 @@ Route::group(['middleware'=>'auth'],function(){
 
     Route::post('user/delete','RadUserController@deleteUser')->name('user.delete');
     Route::resource('user','RadUserController');
+    Route::get('userlist','RadUserController@userByProfile');
+    Route::get('user/userprofile/{profile}','RadUserController@userList');
     Route::post('user/{id}','RadUserController@updateuser')->name('raduser.update');
 
 

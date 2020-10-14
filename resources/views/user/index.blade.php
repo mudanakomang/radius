@@ -107,13 +107,13 @@
                 }else if(usedchecked && !unusedchecked){
                     $.fn.dataTable.ext.search.push(
                         function( settings, data, dataIndex ) {
-                            return data[4]=='Sudah Digunakan'
+                            return data[4]==='Sudah Digunakan'
                         }
                     )
                 }else if(!usedchecked && unusedchecked){
                     $.fn.dataTable.ext.search.push(
                         function( settings, data, dataIndex ) {
-                            return data[4]=='Belum Digunakan'
+                            return data[4]==='Belum Digunakan'
                         }
                     )
                 }else{

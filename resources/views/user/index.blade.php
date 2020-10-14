@@ -91,8 +91,6 @@
 
 
         $(document).ready(function () {
-
-
            var table= $('#usertable').DataTable({
                 "responsive": true,
                 "autoWidth": false,
@@ -101,9 +99,7 @@
             $("div.toolbar").html('<input type="checkbox" id="used"> Digunakan <br> <input type="checkbox" id="unused"> Belum Digunakan');
 
             $('#used , #unused').on('change',function () {
-               if($('#used').is(':checked') && $('#unused').is(':checked')){
-                   $.fn.dataTable.ext.search.pop()
-               }else if ($('#used').is(':checked')){
+              if ($('#used').is(':checked')){
                    $.fn.dataTable.ext.search.push(
                        function( settings, data, dataIndex ) {
                            return data[3]=='Sudah Digunakan'

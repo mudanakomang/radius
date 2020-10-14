@@ -70,7 +70,7 @@
             <!-- small box -->
             <div class="small-box bg-danger">
                 <div class="inner">
-                    <h3>{{ \App\RadAcct::whereNull('acctstoptime')->whereBetween('acctupdatetime',[\Carbon\Carbon::now()->format('Y-m-d H:i:s'),\Carbon\Carbon::now()->subMinutes(5)->format('Y-m-d H:i:s')])->count() }}</h3>
+                    <h3>{{ \App\RadAcct::whereNull('acctstoptime')->where('acctupdatetime','>=',\Carbon\Carbon::now()->subMinutes(5)->format('Y-m-d H:i:s'))->count() }}</h3>
 
                     <p>Online</p>
                 </div>

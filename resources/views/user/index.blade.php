@@ -96,27 +96,30 @@
                 "autoWidth": false,
                 "dom": 'l<"toolbar">frtip',
             });
-            $("div.toolbar").html('<input type="checkbox" id="used"> Digunakan <br> <input type="checkbox" id="unused"> Belum Digunakan');
-
-            $('#used , #unused').on('change',function () {
-              if ($('#used').is(':checked')){
-                   $.fn.dataTable.ext.search.push(
-                       function( settings, data, dataIndex ) {
-                           return data[3]=='Sudah Digunakan'
-                       }
-                   )
-               }else if($('#unused').is(':checked')){
-                   $.fn.dataTable.ext.search.push(
-                       function( settings, data, dataIndex ) {
-                           return data[3]=='Belum Digunakan'
-                       }
-                   )
-               }else{
-                   $.fn.dataTable.ext.search.pop()
-               }
+            $("div.toolbar").html('<input type="checkbox" class="filter" id="used"> Digunakan <br> <input type="checkbox" class="filter" id="unused"> Belum Digunakan');
 
 
-               table.draw()
+            $('.filter').on('change',function () {
+                var usedchecked=$('#used').is(':checked')
+                var unusedchecked=$('#unused').is(':checked')
+                if (usedchecked && unusedchecked){
+                    $.fn.dataTable.ext.search.pop()
+                }else if(usedchecked && !unusedchecked){
+                    $.fn.dataTable.ext.search.push(
+                        function( settings, data, dataIndex ) {
+                            return data[4]=='Sudah Digunakan'
+                        }
+                    )
+                }else if(!usedchecked && unusedchecked){
+                    $.fn.dataTable.ext.search.push(
+                        function( settings, data, dataIndex ) {
+                            return data[4]=='Belum Digunakan'
+                        }
+                    )
+                }else{
+                    $.fn.dataTable.ext.search.pop()
+                }
+                table.draw()
             })
 
         })

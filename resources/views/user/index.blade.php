@@ -40,6 +40,7 @@
                             <th>#</th>
                             <th>Kode Akses</th>
                             <th>User Group / Profile</th>
+                            <th>Harga</th>
                             <th>Status</th>
                             <th>Shared User</th>
                             <th>First Login</th>
@@ -59,8 +60,10 @@
                                 <td>{{ $value->username }}</td>
                                 @if( $value->userGroup == null)
                                     <td>-</td>
+                                    <td></td>
                                 @else
                                     <td>{{ $value->userGroup->groupname }}</td>
+                                    <td>Rp. {{ $value->userGroup->harga }}</td>
                                 @endif
                                 <td>@if(count($value->acct)==0)
                                         <span class="badge badge-success">Belum Digunakan</span>

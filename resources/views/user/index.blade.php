@@ -51,9 +51,9 @@
                         <tbody>
                         @foreach($users as $key=>$value)
                                 @if(count($value->acct)==0)
-                                <tr class="table-danger">
+                                <tr >
                                     @else
-                                 <tr>
+                                 <tr class="table-danger">
                                  @endif
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $value->username }}</td>

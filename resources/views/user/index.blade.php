@@ -50,7 +50,11 @@
                         </thead>
                         <tbody>
                         @foreach($users as $key=>$value)
-                            <tr>
+                                @if(count($value->acct)==0)
+                                <tr class="table-danger">
+                                    @else
+                                 <tr>
+                                 @endif
                                 <td>{{ $key+1 }}</td>
                                 <td>{{ $value->username }}</td>
                                 @if( $value->userGroup == null)

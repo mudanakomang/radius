@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
-        <img src="{{ asset('dist/img/world.svg') }}" alt="Logo" class="brand-image img-circle "
+        <img src="{{ asset('dist/img/logo.png') }}" alt="Logo" class="brand-image img-circle "
              style="opacity: .8">
         <span class="brand-text font-weight-light"><br></span>
     </a>

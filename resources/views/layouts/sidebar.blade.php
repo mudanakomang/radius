@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
         <img src="{{ asset('dist/img/logo.png') }}" alt="Logo" class="brand-image img-circle "
-             style="opacity: .8">
+             style="opacity: 1">
         <span class="brand-text font-weight-light"><br></span>
     </a>
 
